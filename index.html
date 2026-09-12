@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranjal — Web developer</title>
+  <meta name="description"
+    content="Portfolio of Pranjal, a Web developer building fast, accessible web applications." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="#top" class="wordmark">Pranjal<span class="wordmark-dim">.dev</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme" title="Toggle theme">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <circle cx="12" cy="12" r="4.5" />
+            <path
+              d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12H5M19 12h2.5M4.2 19.8l1.8-1.8M18 6l1.8-1.8" />
+          </svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">// hello, world</p>
+          <h1>Pranjal</h1>
+          <p class="hero-role">Full-stack engineer, focused on fast and accessible web apps</p>
+          <p class="hero-blurb">
+            Full stack developer with expertise in frontend and backend development.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See my work</a>
+            <a class="btn btn-ghost" href="resume.pdf" download>Download resume</a>
+          </div>
+        </div>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          </div>
+          <pre class="terminal-body"><code><span class="prompt">$</span> whoami
+Pranjal — Web developer
+
+<span class="prompt">$</span> cat stack.txt
+JavaScript · React
+Node.js · MongoDB · Docker
+
+<span class="prompt">$</span> status
+open to new opportunities<span class="cursor">&#9608;</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <p class="eyebrow">// selected work</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Expense Tracker with AI Financial Assistant</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+          <p>An AI-integrated expense tracking web application that keeps a record of all your financial
+            operations and helps with financial decision-making.</p>
+          <ul class="tag-list">
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Mongoose</li>
+            <li>MongoDB</li>
+            <li>Google Gemini API</li>
+            <li>REST API</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Scheme Saathi</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+          <p>A full-stack web application that helps users discover and understand government welfare schemes.</p>
+          <ul class="tag-list">
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>REST API</li>
+          </ul>
+        </article>
+
+        <article class="project-card project-card-placeholder">
+          <div class="project-top">
+            <h3>More projects coming soon</h3>
+          </div>
+          <p>New work in progress — check back for updates, or take a look at my GitHub in the meantime.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <p class="eyebrow">// stack</p>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <ul class="tag-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Tailwind CSS</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>Docker</li>
+            <li>AWS</li>
+            <li>Redis</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-contact" id="contact">
+      <p class="eyebrow">// get in touch</p>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="contact-blurb">
+        Have a role, a project, or just a question? My inbox is open.
+      </p>
+      <a class="btn btn-primary btn-large" href="mailto:pranjal@example.com">pranjaltamta43@gmail.com</a>
+
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter / X</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Pranjal. </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
