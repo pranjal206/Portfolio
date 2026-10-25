@@ -439,8 +439,8 @@ html[data-theme="light"] .icon-moon {
 
 .tag-list li {
     font-family: var(--font-mono);
-    font-size: 0.78rem;
-    padding: 0.3rem 0.6rem;
+    font-size: 0.89rem;
+    padding: 1.3rem 1rem;
     border-radius: 4px;
     background: var(--accent-soft);
     color: var(--accent);
