@@ -672,3 +672,15 @@ html[data-theme="light"] .skill-badge:hover {
         transform: translateY(-7px) rotate(-45deg);
     }
 }
+
+@media (max-width: 860px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 440px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
