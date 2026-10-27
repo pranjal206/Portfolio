@@ -89,6 +89,12 @@
       closeMenu();
     }
   });
+  // Close the menu when Escape is pressed
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      closeMenu();
+    }
+  });
 })();
 
 // ============================

@@ -1,0 +1,996 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranjal — Web developer</title>
+  <meta name="description"
+    content="Portfolio of Pranjal, a Web developer building fast, accessible web applications." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="#top" class="wordmark">Pranjal<span class="wordmark-dim">.dev</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme" title="Toggle theme">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <circle cx="12" cy="12" r="4.5" />
+            <path
+              d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12H5M19 12h2.5M4.2 19.8l1.8-1.8M18 6l1.8-1.8" />
+          </svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">// hello, world</p>
+          <h1>Pranjal</h1>
+          <p class="hero-role">Full-stack engineer, focused on fast and accessible web apps</p>
+          <p class="hero-blurb">
+            Full stack developer with expertise in frontend and backend development.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See my work</a>
+            <a class="btn btn-ghost" href="Pranjal-resume.pdf" download="Pranjal-resume.pdf">Download resume</a>
+          </div>
+        </div>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          </div>
+          <pre class="terminal-body"><code><span class="prompt">$aboutme</span> 
+Pranjal — Web developer
+
+<span class="prompt">$</span> cat stack.txt
+JavaScript · React
+Node.js · MongoDB · Docker
+
+<span class="prompt">$</span> status
+open to new opportunities<span class="cursor">&#9608;</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <p class="eyebrow">// selected work</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Expense Tracker with AI Financial Assistant</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+          <p>A full-stack expense tracker that helps users manage income and expenses, track transactions, and analyze
+            spending. Integrated an AI assistant that answers financial questions using real transaction data stored in
+            MongoDB.</p>
+          <ul class="tag-list">
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Mongoose</li>
+            <li>MongoDB</li>
+            <li>Google Gemini API</li>
+            <li>REST API</li>
+          </ul>
+        </article>
+
+        <div class="exp-track">
+          <img src="Expense Tracker Desk Setup.png" alt="">
+        </div>
+
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Scheme Saathi – Smart Government Scheme Finder</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+          <p>A web application that helps users discover government schemes based on their eligibility. Features include
+            scheme search, eligibility guidance, and an AI-powered chatbot to simplify government scheme information.
+            recommendations.</p>
+          <ul class="tag-list">
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>REST API</li>
+          </ul>
+        </article>
+
+        <article class="project-card project-card-placeholder">
+          <div class="project-top">
+            <h3>More projects coming soon</h3>
+          </div>
+          <p>New work in progress — check back for updates, or take a look at my GitHub in the meantime.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <p class="eyebrow">// stack</p>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <ul class="tag-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>SQL</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Tailwind CSS</li>
+            <li>MongoDB</li>
+            <!-- <li>C</li> -->
+            <!-- <li>C++</li> -->
+            <!-- <li>PostgreSQL</li> -->
+            <!-- <li>Python</li> -->
+            <!-- <li>Docker</li> -->
+            <!-- <li>AWS</li> -->
+            <!-- <li>Redis</li> -->
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-contact" id="contact">
+      <p class="eyebrow">// get in touch</p>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="contact-blurb">
+        Open to work.
+      </p>
+      <a class="btn btn-primary btn-large" href="mailto:pranjal@example.com">pranjaltamta43@gmail.com</a>
+
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="http://www.linkedin.com/in/pranjal-tamta-007114334" target="_blank" rel="noopener">LinkedIn</a>
+        <!-- <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter / X</a> -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Pranjal.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+CSS
+
+/* ============================
+   THEME TOKENS
+   ============================ */
+:root {
+    --bg: #0D1117;
+    --bg-elevated: #161B22;
+    --text: #E6EDF3;
+    --text-muted: #8B949E;
+    --border: #30363D;
+    --accent: #2FBF8F;
+    --accent-soft: rgba(47, 191, 143, 0.14);
+    --accent-contrast: #04140F;
+
+    /* Change these three lines to restyle fonts across the whole site */
+    --font-heading: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+    --max-width: 1080px;
+    --radius: 6px;
+    --transition: 160ms ease;
+}
+
+html[data-theme="light"] {
+    --bg: #F5F6F3;
+    --bg-elevated: #FFFFFF;
+    --text: #14171C;
+    --text-muted: #5B6470;
+    --border: #DDE1E6;
+    --accent: #1E8E6D;
+    --accent-soft: rgba(30, 142, 109, 0.10);
+    --accent-contrast: #FFFFFF;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.001ms !important;
+        transition-duration: 0.001ms !important;
+    }
+}
+
+/* ============================
+   RESET & BASE
+   ============================ */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color var(--transition), color var(--transition);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+
+p {
+    margin: 0;
+    color: var(--text-muted);
+    max-width: 60ch;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: var(--accent);
+    color: var(--accent-contrast);
+    padding: 0.75rem 1rem;
+    z-index: 100;
+    border-radius: 0 0 var(--radius) 0;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+/* ============================
+   LAYOUT HELPERS
+   ============================ */
+.section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 5rem 1.5rem;
+}
+
+.eyebrow {
+    font-family: var(--font-mono);
+    color: var(--accent);
+    font-size: 0.9rem;
+    margin: 0 0 0.75rem;
+}
+
+.section-title {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    margin-bottom: 2rem;
+}
+
+/* ============================
+   HEADER / NAV
+   ============================ */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+}
+
+.nav {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wordmark {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.wordmark-dim {
+    color: var(--text-muted);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.nav-menu a {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    transition: color var(--transition);
+}
+
+.nav-menu a:hover {
+    color: var(--text);
+}
+
+.theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    color: var(--text);
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-moon {
+    display: none;
+}
+
+html[data-theme="light"] .icon-sun {
+    display: none;
+}
+
+html[data-theme="light"] .icon-moon {
+    display: block;
+}
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.nav-toggle span {
+    width: 22px;
+    height: 2px;
+    background: var(--text);
+    transition: transform var(--transition), opacity var(--transition);
+}
+
+/* ============================
+   HERO
+   ============================ */
+.hero {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 3rem;
+}
+
+.hero-inner {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    margin: 0.25rem 0 0.5rem;
+}
+
+.hero-role {
+    color: var(--text);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-blurb {
+    margin-bottom: 2rem;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: transform var(--transition), background-color var(--transition), border-color var(--transition);
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+
+.btn-primary:hover {
+    background: color-mix(in srgb, var(--accent) 85%, black);
+}
+
+.btn-ghost {
+    border-color: var(--border);
+    color: var(--text);
+}
+
+.btn-ghost:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.btn-large {
+    padding: 1rem 2rem;
+    font-size: 1.05rem;
+}
+
+/* Terminal card */
+.terminal {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+.terminal-bar {
+    display: flex;
+    gap: 6px;
+    padding: 0.7rem 0.9rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dot-red {
+    background: #FF5F56;
+}
+
+.dot-yellow {
+    background: #FFBD2E;
+}
+
+.dot-green {
+    background: #27C93F;
+}
+
+.terminal-body {
+    margin: 0;
+    padding: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.88rem;
+    color: var(--text);
+    white-space: pre-wrap;
+    line-height: 1.7;
+}
+
+.prompt {
+    color: var(--accent);
+}
+
+.cursor {
+    color: var(--accent);
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* ============================
+   PROJECTS
+   ============================ */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+}
+
+.project-card {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    transition: border-color var(--transition);
+}
+
+.project-card:hover {
+    border-color: var(--accent);
+}
+
+.project-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.project-top h3 {
+    font-size: 1.15rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 0.9rem;
+}
+
+.project-links a {
+    font-size: 0.85rem;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+.project-card p {
+    margin-bottom: 1rem;
+}
+
+.project-card-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: dashed;
+    color: var(--text-muted);
+}
+
+.project-card-placeholder h3 {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+}
+
+.project-card-placeholder p {
+    margin-bottom: 0;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-list li {
+    font-family: var(--font-mono);
+    font-size: 0.89rem;
+    padding: 1.3rem 1rem;
+    border-radius: 4px;
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+
+
+/* ============================
+   SKILLS
+   ============================ */
+.skills-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    color: #f8fafc;
+}
+
+.skills-subtitle {
+    color: #10b981;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.skills-section h2 {
+    font-size: clamp(36px, 5vw, 48px);
+    font-weight: 750;
+    letter-spacing: -1.5px;
+    margin: 0 0 32px;
+    color: #f8fafc;
+}
+
+.skills-section h2 span {
+    color: #10b981;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.skill-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 64px;
+    padding: 12px 10px;
+    background: rgba(16, 185, 129, 0.07);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: 10px;
+    color: #a7f3d0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    transition: all 0.25s ease;
+    cursor: default;
+}
+
+.skill-badge:hover {
+    background: rgba(16, 185, 129, 0.15);
+    border-color: #10b981;
+    color: #34d399;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(16, 185, 129, 0.08);
+}
+
+/* Light theme adjustments so the section stays readable */
+html[data-theme="light"] .skills-section,
+html[data-theme="light"] .skills-section h2 {
+    color: var(--text);
+}
+
+html[data-theme="light"] .skills-subtitle,
+html[data-theme="light"] .skills-section h2 span {
+    color: #059669;
+}
+
+html[data-theme="light"] .skill-badge {
+    background: rgba(5, 150, 105, 0.08);
+    border-color: rgba(5, 150, 105, 0.3);
+    color: #047857;
+}
+
+html[data-theme="light"] .skill-badge:hover {
+    background: rgba(5, 150, 105, 0.15);
+    border-color: #059669;
+    color: #059669;
+    box-shadow: 0 5px 20px rgba(5, 150, 105, 0.12);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .skills-section {
+        padding: 55px 22px;
+    }
+
+    .skills-section h2 {
+        margin-bottom: 25px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .skill-badge {
+        min-height: 56px;
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 380px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ============================
+   CONTACT
+   ============================ */
+.section-contact {
+    text-align: center;
+}
+
+.section-contact .eyebrow,
+.section-contact .section-title {
+    text-align: center;
+}
+
+.contact-blurb {
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    margin-top: 2.5rem;
+}
+
+.social-links a {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.social-links a:hover {
+    color: var(--accent);
+}
+
+/* ============================
+   FOOTER
+   ============================ */
+.site-footer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.site-footer p {
+    margin: 0 auto;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* ============================
+   RESPONSIVE
+   ============================ */
+@media (max-width: 860px) {
+    .hero-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--bg);
+        border-bottom: 1px solid var(--border);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        padding: 0.5rem 1.5rem 1rem;
+        transform: translateY(-8px);
+        opacity: 0;
+        pointer-events: none;
+        transition: transform var(--transition), opacity var(--transition);
+    }
+
+    .nav-menu.open {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .nav-menu a {
+        padding: 0.7rem 0;
+        width: 100%;
+    }
+
+    .theme-toggle {
+        margin-top: 0.5rem;
+    }
+
+    .nav-toggle.open span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .nav-toggle.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.open span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+}
+
+@media (max-width: 860px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 440px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+SCRIPT
+
+// ============================
+// THEME TOGGLE (light / dark)
+// ============================
+(function () {
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById("themeToggle");
+  const STORAGE_KEY = "portfolio-theme";
+
+  function getStoredTheme() {
+    try {
+      return localStorage.getItem(STORAGE_KEY);
+    } catch (e) {
+      return null; // localStorage unavailable (private mode, etc.) — fall back silently
+    }
+  }
+
+  function storeTheme(theme) {
+    try {
+      localStorage.setItem(STORAGE_KEY, theme);
+    } catch (e) {
+      /* ignore — theme just won't persist across reloads */
+    }
+  }
+
+  function applyTheme(theme) {
+    root.setAttribute("data-theme", theme);
+    if (toggleBtn) {
+      toggleBtn.setAttribute(
+        "aria-label",
+        theme === "dark" ? "Switch to light theme" : "Switch to dark theme",
+      );
+    }
+  }
+
+  // Initial theme: saved preference > system preference > dark default
+  const saved = getStoredTheme();
+  const prefersLight = window.matchMedia(
+    "(prefers-color-scheme: light)",
+  ).matches;
+  const initialTheme = saved || (prefersLight ? "light" : "dark");
+  applyTheme(initialTheme);
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", function () {
+      const current =
+        root.getAttribute("data-theme") === "light" ? "light" : "dark";
+      const next = current === "light" ? "dark" : "light";
+      applyTheme(next);
+      storeTheme(next);
+    });
+  }
+})();
+
+// ============================
+// MOBILE NAV MENU
+// ============================
+(function () {
+  const navToggle = document.getElementById("navToggle");
+  const navMenu = document.getElementById("navMenu");
+  if (!navToggle || !navMenu) return;
+
+  function closeMenu() {
+    navMenu.classList.remove("open");
+    navToggle.classList.remove("open");
+    navToggle.setAttribute("aria-expanded", "false");
+    navToggle.setAttribute("aria-label", "Open menu");
+  }
+
+  function openMenu() {
+    navMenu.classList.add("open");
+    navToggle.classList.add("open");
+    navToggle.setAttribute("aria-expanded", "true");
+    navToggle.setAttribute("aria-label", "Close menu");
+  }
+
+  navToggle.addEventListener("click", function () {
+    const isOpen = navMenu.classList.contains("open");
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  // Close the menu after tapping a link (mobile)
+  navMenu.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", closeMenu);
+  });
+
+  // Close on outside click
+  document.addEventListener("click", function (e) {
+    if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+      closeMenu();
+    }
+  });
+})();
+
+// ============================
+// FOOTER YEAR
+// ============================
+(function () {
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+})();
